@@ -5,6 +5,12 @@ import java.util.regex.*;
 // Output:
 //   java -cp .:$CLASSPATH SplitString
 //   Return :["Hello World", marker, coffee, "Headphones eraser"]
+//   ...
+//   java -cp .:$CLASSPATH SplitStringRegex "Welcome to \"Thunder Dome\" Max"
+//   Return: ["Hello World", marker, coffee, "Headphones eraser"]
+//   ...
+//   Return: [Welcome, to, "Thunder Dome", Max]
+//
 
 public class SplitStringIter {
 
