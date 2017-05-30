@@ -22,6 +22,11 @@ public class SplitStringIter {
                 System.out.println("Return: " + splitStringToArray(input2).toString());
                 String input3 = "";
                 System.out.println("Return: " + splitStringToArray(input3).toString());
+                if (args != null) {
+                    for (String s : args) {
+                        System.out.println("Return: " + splitStringToArray(s).toString());
+                    }
+                }
 		}
 
 		public static List<String> splitStringToArray(String input) {
