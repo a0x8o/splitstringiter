@@ -2,7 +2,6 @@ import java.lang.*;
 import java.util.*;
 import java.util.regex.*;
 
-// Dario - this code is working for me
 // Output:
 //   java -cp .:$CLASSPATH SplitString
 //   Return :["Hello World", marker, coffee, "Headphones eraser"]
@@ -13,6 +12,8 @@ public class SplitStringIter {
 		}
 
 		public static void main(String args[]) {
+                System.out.println("SplitString - Iterative Solution");
+                System.out.println("================================");
                 String input = "\"Hello World\" marker coffee \"Headphones eraser\"";
 				System.out.println("Return: " + splitStringToArray(input).toString());
                 String input1 = "!cmd 45 90 \"An argument\" Another AndAnother \"Another one in quotes\"";
